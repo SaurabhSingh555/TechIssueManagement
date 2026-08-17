@@ -6,7 +6,7 @@
 
 import { createClient } from '@supabase/supabase-js'
 
-const API_URL = (import.meta.env.VITE_API_URL || '').replace(/\/$/, '')
+const API_URL = (import.meta.env.VITE_API_URL || 'https://tech-issue-management.vercel.app').replace(/\/$/, '')
 const SUPABASE_URL = import.meta.env.VITE_SUPABASE_URL
 const SUPABASE_ANON = import.meta.env.VITE_SUPABASE_ANON_KEY
 
